@@ -1,0 +1,29 @@
+.img-fluid{
+    height: 75px;
+}
+
+.leftside, .rightside{
+    height: auto;
+    width: 100%;
+}
+.head {
+    background-color: #545454;
+    height: 300px;
+}
+.inte {
+    background-color: #E4DCC4;
+}
+#greg {
+    align-items: center;
+    height: 200px;
+}
+#triangle {
+    height: 400px;
+}
+
+i.fab {
+    color: #000;
+}
+/* import fonts.css file */
+@import url(./fonts.css);
+
