@@ -1,0 +1,96 @@
+@font-face {
+	src: url(../fonts/Proxima/proxima-nova.ttf);
+	font-family: proxima-nova;
+}
+main {
+	display: flex;
+
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+.left-side{
+	background-color: bisque;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	
+	margin: 0 3em;
+    padding: 0 3em;
+	
+}
+.left-side h2{
+	padding: 2em 0;
+	text-transform: uppercase;
+}
+.right-side h2{
+	text-transform: uppercase;
+	
+}
+.right-side{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 3em;
+    padding: 0 3em;
+	
+}
+.left-side h2{
+	text-align: center;
+}
+body{
+	margin: 0;
+	font-family: proxima-nova;
+}
+h1 {
+	margin: 6em 0 0 0;
+	text-transform: uppercase;
+}
+
+.photo {
+	background-image: url('../img/gd.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 12em;
+	margin: 6em 0 2em 0;
+}
+.about {
+	height: 70vh;
+}
+.about p{
+	text-align: justify;
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+.F-items {
+	display: flex;
+}
+.F-items2 {
+	width: 35%;
+}
+.F-items3 {
+	width: 100%;
+}
+
+.R-items{
+	display: flex;
+	justify-content: space-between;
+}
+.Formation {
+	margin: 9em 0 0 0;
+}
+.F-items p{
+	text-align: justify;
+}
+h5 {
+	margin: 1em 0;
+}
+h4 {
+	margin: 1em 0;
+	text-transform: uppercase;
+}
